@@ -37,6 +37,12 @@ li {
     list-style: none;
 }
 
+.clearfix::after, .clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #wrap {
     width: 100%;
     min-width: 1020px;

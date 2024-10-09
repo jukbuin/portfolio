@@ -9,17 +9,17 @@
 
 
 /* 전체영역 */
-#wrap {
+#Wrapper {
     width: 100%;
     min-width: 1020px;
     min-height: 1080px;
+    padding-bottom: 70px;
 }
 
 /* header */
-#header {
+#Header {
     width: 1020px;
     margin: 0 auto;
-    /* height: 100px; */
 }
 
 .top_util {
@@ -46,3 +46,579 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+.header_inner {
+    position: relative;
+    width: 1020px;
+    height: 90px;
+}
+
+.header_inner > h1 {
+    display: block;
+    width: 222px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1D2245;
+    line-height: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search_box {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+    height: 40px;
+    right: 0; /* 오른쪽 끝에 배치 */
+    top: 50%; /* 세로 중앙에 배치 */
+    transform: translateY(-50%);
+    background-color: white;
+    border: 1px solid #1D2245;
+    border-radius: 20px;
+}
+
+.search_box > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    line-height: 38px;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url('/search.svg');
+    border: none;
+    cursor: pointer;
+}
+
+/* 카테고리 */
+
+#Gnb {
+    position: relative;
+    width: 100%;
+    min-width: 1020px;
+    height: 50px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #555;
+    z-index: 10;
+}
+
+#GnbWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.gnbOpen {
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 48px;
+    padding-left: 30px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    line-height: 48px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gnbOpen> img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 28px;
+}
+
+.gnb_menu_list {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
+.gnb_menu_list > li {
+    margin-left: 100px;
+}
+
+.gnb_menu_list > li:first-child {
+    margin-left: 0;
+}
+
+.gnb_menu_list > li > a {
+    display: block;
+    height: 44px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gnb_menu_list > li > a:hover {
+    color: #5C5489;
+    border-bottom: 2px solid #5C5489;
+}
+
+/* 컨테이너 */
+
+#Container {
+    width: 100%;
+    min-width: 1020px;
+}
+
+/* 컨텐츠 */
+
+#Contents {
+    width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 상세카테고리 */
+
+.page_location {
+    width: 100%;
+    max-width: 1020px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 8px 0 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.loc_home {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 5px 0 0;
+    background: url('/home.svg');
+}
+
+.loc_history {
+    float: left;
+}
+
+.loc_history > li {
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    line-height: 34px;
+}
+
+.loc_history > li > a {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+
+/* 상품가격 */
+
+.prd_detail_box {
+    padding-top: 35px;
+}
+
+/* 상품가격 왼쪽 */
+
+.left_area {
+    width: 510px;
+    float: left;
+}
+
+.prd_img { 
+    width: 510px;
+    height: 510px;
+
+}
+
+.prd_review {
+    width: 480px;
+    margin: 68px auto 0;
+    text-align: left;
+}
+
+.prd_review > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.prd_review > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+
+}
+
+.prd_review > b {
+    margin-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #555;
+    vertical-align: middle;
+
+}
+
+.prd_review > em {
+    color: #555;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 3px;
+    letter-spacing: 0;
+    font-style: normal;
+    vertical-align: middle;
+
+}
+
+/* 상품가격 오른쪽 */
+
+.right_area {
+    width: 450px;
+    float: right;
+}
+
+.prd_name {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.price {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    line-height: 20px;
+}
+
+.price_1 {
+    position: relative;
+    top: 6px;
+    margin-right: 12px;
+}
+
+.price_1 > strike {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+
+.price_1 > span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+
+.price_2 {
+    color: #e02020;
+    padding-top: 3px;
+}
+
+.price_2 > strong {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+}
+
+.price_2 > span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.prd_more_info {
+    border-bottom: 1px solid #ddd;
+}
+
+.row {
+    padding: 15px 0 20px;
+    border-top: 1px solid #ddd;
+}
+
+.row:first-child {
+    border-top: 0;
+} 
+
+.tit {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.row > li {
+    display: table;
+    table-layout: fixed;
+}
+
+.row > li > span {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #555;
+}
+
+.row > li > p {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    padding-left: 10px;
+}
+
+.row > li > div {
+    display: inline-block;
+}
+
+.row > li > div > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    padding-left: 10px;
+}
+
+.txt_list > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+.txt_list > p:last-child {
+    margin-top: 4px;
+}
+
+.prd_option_box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 0;
+    background: #fff;
+}
+
+.sel_option {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.sel_option >img {
+    width: 11.27px;
+    height: 9.45px;
+    margin-top: 19px;
+}
+
+.prd_total_price {
+    height: 70px;
+    margin: 10px 0 0;
+    padding: 18px 0 0;
+    border-bottom: 2px solid #5C5489;
+    color: #e02020;
+    font-weight: 700;
+}
+
+.tx_tit {
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+
+.tx_cont {
+    float: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+.tx_num {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    margin-right: 2px;
+    vertical-align: -2px;
+}
+
+.prd_btn_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+
+.prd_btn_area > button {
+    height: 65px;
+    margin-left: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btnBasket, .btnBuy {
+    width: 135px;
+}
+
+.btnBasket {
+    border: 1px solid #5C5489;
+    background-color: #fff;
+    color: #5C5489;
+}
+
+.btnBuy {
+    background-color: #5C5489;
+    color: #fff;
+    border: none;
+}
+
+.btnGift, .btnZzim {
+    width: 65px;
+    border: none;
+}
+
+.btnGift {
+    background: url('/gift.svg') 50% 50% no-repeat;
+    background-color: #5C5489;
+}
+
+.btnZzim {
+    border: 1px solid #5C5489;
+    background-color: #fff;
+    background: url('/zzim.svg') 50% 50% no-repeat;
+}
+
+/* 상품텝메뉴 */
+
+.prd_detail_tab {
+    margin-top: 130px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.prd_detail_tab > li {
+    float: left;
+    width: 25%;
+}
+
+.prd_detail_tab > li > a {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #777;
+    padding: 14px 0 0;
+    background: #F5F5F5;
+    border-bottom: 2px solid #5C5489;
+
+
+}
+
+.prd_detail_tab > .on > a {
+    border-bottom: 0;
+    color: #fff;
+    background: #5C5489;
+}
+
+.prd_detail_cont {
+    display: block;
+    padding: 40px 0 0;
+}
+
+.detail_area {
+    display: block;
+    text-align: center;
+}
+
+.detail_area > img {
+    width: 690px;
+    margin: 0 auto;
+}
+
+.contEditor {
+    margin-top: 20px;
+}
+
+.speedycat_container > img {
+    margin: 0 auto;
+}
+
+/* Footer */
+
+#Footer{
+    margin: 40px 0 0;
+    border-top: 2px solid #5C5489;
+}
+
+.conts {
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 25px;
+}
+
+.conts > li {
+    float: left;
+    width: 25%;
+}
+
+.conts > li > a {
+    display: block;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.conts_detail {
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 75px;
+}
+
+.conts_detail > li {
+    float: left;
+    width: 25%;
+}
+
+.conts_detail > li > a {
+    display: block;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
+
