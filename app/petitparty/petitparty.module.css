@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+/* 글꼴 */
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* 전체영역 */
+#Wrapper {
+    width: 100%;
+    min-width: 1300px;
+    min-height: 1080px;
+    padding-bottom: 70px;
+}
+
+
+/* header */
+#Header {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.top_util {
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+.gnb1 {
+    float: left;
+    padding-left: 30px;
+}
+
+.gnb2 {
+    float: right;
+    padding-right: 30px;
+}
+
+.logo {
+    padding-left: 478px;
+}
+
+.logo > img {
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.top_util > .menu_list > li {
+    line-height: 80px;
+    display: inline-block;
+}
+
+.menu_list > li > a {
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.header_gnb {
+    width: 1300px;
+    height: 25px;
+    text-align: center;
+}
+
+.header_gnb > ul > li {
+    display: inline-block;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.header_gnb > ul > li:last-child {
+    margin-right: 0;
+}
+
+.header_gnb > ul > li > a {
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* 컨테이너 */
+#Container {
+    width: 100%;
+    min-width: 1300px;
+}
+
+/* 컨텐츠 */
+#Contents {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 상품가격 */
+.prd_detail_box {
+    padding-top: 100px;
+}
+
+/* 상품가격 왼쪽 */
+.left_area {
+    width: 550px;
+    float: left;
+}
+
+/* 상품가격 오른쪽 */
+.right_area {
+    width: 550px;
+    float: right;
+}
+
+.prd_name {
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    padding: 20px 0;
+    border-top: 2px solid #666;
+    border-bottom: 1px solid #ddd;
+}
+
+.price {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    line-height: 22px;
+}
+
+.price_1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.price_2 {
+    position: relative;
+    margin-left: 126px;
+}
+
+.price_2 > strong {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    color: #e02020;
+    margin-right: 10px;
+}
+
+.price_2 > strike {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+}
+
+.point {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    line-height: 22px;
+    color: #333;
+}
+
+.point_1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.point_2 {
+    position: relative;
+    margin-left: 124px;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.delivery {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    line-height: 22px;
+    color: #333;
+}
+
+.delivery_1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.delivery_2 {
+    position: relative;
+    margin-left: 105px;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.charge {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    line-height: 22px;
+    color: #333;
+}
+
+.charge_1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.charge_2 {
+    position: relative;
+    margin-left: 114px;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.prd_option_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    background: #fff;
+    color: #333;
+}
+
+.prd_option_box > span {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sel_option {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    height: 25px;
+    line-height: 23px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sel_option > img {
+    width: 11.27px;
+}
+
+.prd_total_price {
+    height: 70px;
+    padding: 18px 0 0;
+    border-top: 2px solid #ddd;
+    font-weight: 500;
+}
+
+.tx_tit {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+}
+
+.qty {
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+}
+
+.prd_total_price > strong {
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+}
+
+.btnBasket {
+    width: 130px;
+    height: 50px;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #FFEBEE;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 상품텝메뉴 */
+.prd_detail_tab {
+    margin-top: 130px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.prd_detail_tab > li {
+    float: left;
+    width: 25%;
+}
+
+.prd_detail_tab > li > a {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    padding: 14px 0 0;
+    background: #F5F5F5;
+    border-bottom: 2px solid #FFEBEE;
+}
+
+.prd_detail_tab > .on > a {
+    border-bottom: 0;
+    color: #000;
+    background: #FFEBEE;
+}
+
+/* 상세페이지 */
+.prd_detail_cont {
+    display: block;
+    padding: 40px 0 0;
+}
+
+.detail_area {
+    display: block;
+    text-align: center;
+}
+
+.contEditor {
+    margin-top: 20px;
+}
+
+.speedycat_container > img {
+    margin: 0 auto;
+}
+
+/* Footer */
+#Footer{
+    margin: 40px 0 0;
+    border-top: 2px solid #FFEBEE;
+}
+
+.conts {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 25px;
+}
+
+.conts > li {
+    float: left;
+    width: 25%;
+}
+
+.conts > li > a {
+    display: block;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.conts_detail {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 75px;
+}
+
+.conts_detail > li {
+    float: left;
+    width: 25%;
+}
+
+.conts_detail > li > a {
+    display: block;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+

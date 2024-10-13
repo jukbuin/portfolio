@@ -1,4 +1,3 @@
-import { Span } from 'next/dist/trace';
 import styles from './curology.module.css';
 
 export default function Curology() {

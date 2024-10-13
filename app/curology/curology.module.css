@@ -97,7 +97,6 @@
 }
 
 /* 카테고리 */
-
 #Gnb {
     position: relative;
     width: 100%;
@@ -170,14 +169,12 @@
 }
 
 /* 컨테이너 */
-
 #Container {
     width: 100%;
     min-width: 1020px;
 }
 
 /* 컨텐츠 */
-
 #Contents {
     width: 1020px;
     height: 100%;
@@ -185,7 +182,6 @@
 }
 
 /* 상세카테고리 */
-
 .page_location {
     width: 100%;
     max-width: 1020px;
@@ -222,13 +218,11 @@
 }
 
 /* 상품가격 */
-
 .prd_detail_box {
     padding-top: 35px;
 }
 
 /* 상품가격 왼쪽 */
-
 .left_area {
     width: 510px;
     float: left;
@@ -285,7 +279,6 @@
 }
 
 /* 상품가격 오른쪽 */
-
 .right_area {
     width: 450px;
     float: right;
@@ -514,7 +507,6 @@
 }
 
 /* 상품텝메뉴 */
-
 .prd_detail_tab {
     margin-top: 130px;
     height: 50px;
@@ -571,7 +563,6 @@
 }
 
 /* Footer */
-
 #Footer{
     margin: 40px 0 0;
     border-top: 2px solid #5C5489;

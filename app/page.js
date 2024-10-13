@@ -7,9 +7,9 @@ export default function Home() {
                 <Link className="icon" href="./curology">
                     <img src="/curology.png" alt="Go to curology" />
                 </Link> {/*curology*/}
-                <Link className="icon" href="./curology">
-                    <img src="/curology.png" alt="Go to curology" />
-                </Link> {/*2*/}
+                <Link className="icon" href="./petitparty">
+                    <img src="/petitparty.png" alt="Go to petitparty" />
+                </Link> {/*petitparty*/}
                 <Link className="icon" href="./curology">
                     <img src="/curology.png" alt="Go to curology" />
                 </Link> {/*3*/}
