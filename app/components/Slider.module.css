@@ -4,7 +4,7 @@
     width: 100%;
     overflow: hidden;
     max-width: 600px;
-    margin: 0 auto; /* 가운데 정렬 */
+    margin: 0 auto;
   }
   
   .slides {
