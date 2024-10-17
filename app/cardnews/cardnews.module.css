@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* 글꼴 */
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/* 전체영역 */
+#Wrapper {
+    width: 100%;
+    max-width: 468px;
+    min-height: 800px;
+    margin: auto;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+/* header */
+#Header {
+    width: 100%;
+    width: 468px;
+    height: 40px;
+    background-color: #fff;
+    padding-bottom: 8px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+}
+
+
+/* 컨테이너 */
+#Container {
+    width: 100%;
+    width: 468px;
+    margin: 0 auto;
+}
+
+/* 컨텐츠 */
+#Contents {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.post_header {
+    height: 60px;
+    padding: 10px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    border-radius: 50%;
+    float: left;
+    background-image: url('/profile.png');
+    background-repeat: no-repeat;
+}
+
+.profile_name {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.more {
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+    float: right;
+    background-image: url('/more.svg');
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+
+.post_menu {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.like, .chat, .send, .keep {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    margin: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.like {
+    background-image: url('/like.svg');
+}
+
+.chat {
+    background-image: url('/chat.svg');
+}
+
+.send {
+    background-image: url('/send.svg');
+}
+
+.keep {
+    background-image: url('/keep.svg');
+    float: right;
+}
+
+.post_content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.likeC {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.post_content > .sub > strong {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 14px;
+}
+
+.sub {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.date {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: grey;
+}

@@ -10,8 +10,8 @@ export default function Home() {
                 <Link className="icon" href="./petitparty">
                     <img src="/petitparty.png" alt="Go to petitparty" />
                 </Link> {/*petitparty*/}
-                <Link className="icon" href="./curology">
-                    <img src="/curology.png" alt="Go to curology" />
+                <Link className="icon" href="./cardnews">
+                    <img src="/cardnews.png" alt="Go to cardnews" />
                 </Link> {/*3*/}
                 <Link className="icon" href="https://www.naver.com/" target="_blank">
                     <img src="/internetIcon.png" alt="Go to internet" />

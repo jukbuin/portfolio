@@ -1,6 +1,6 @@
 import styles from './petitparty.module.css';
 
-export default function Curology() {
+export default function Petitparty() {
     return (
         <div id={styles.Wrapper}>
             <div id={styles.Header}>
