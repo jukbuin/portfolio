@@ -74,7 +74,7 @@ export default function Curology() {
                                     <span>원</span>
                                 </span>
                                 <span className={styles.price_2}>
-                                    <strong>2,4000</strong>
+                                    <strong>24,000</strong>
                                     <span>원</span>
                                 </span>
                             </div>
