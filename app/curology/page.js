@@ -70,7 +70,7 @@ export default function Curology() {
                             <p className={styles.prd_name}>[속수분 크림] 큐롤로지 더 모이스처라이저 50ml</p>
                             <div className={styles.price}>
                                 <span className={styles.price_1}>
-                                    <strike>4,3000</strike>
+                                    <strike>43,000</strike>
                                     <span>원</span>
                                 </span>
                                 <span className={styles.price_2}>
