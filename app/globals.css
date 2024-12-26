@@ -126,3 +126,49 @@ li {
     box-shadow: 0 0 10px rgba(51, 51, 51, 0.5); /* 마우스 오버 시 투명한 막처럼 보이는 그림자 설정 */
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 120%; /* 아이콘 위에 말풍선 표시 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* 줄바꿈을 허용 */
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 10;
+    width: max-content;
+    max-width: 200px; /* 필요에 따라 조정 */
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: 110%; /* 말풍선 아래에 화살표 표시 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.tooltip:hover::after,
+.tooltip:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
